@@ -11,7 +11,6 @@ const links = [
   { label: "Experience", href: "/experience" },
   { label: "Teaching", href: "/teaching" },
   { label: "Talks", href: "/talks" },
-  { label: "Contact", href: "/contact" },
 ];
 
 export default function Nav() {

@@ -9,8 +9,6 @@ const links = [
   { label: "Publications", href: "/publications" },
   { label: "Research", href: "/research" },
   { label: "Experience", href: "/experience" },
-  { label: "Teaching", href: "/teaching" },
-  { label: "Talks", href: "/talks" },
 ];
 
 export default function Nav() {

@@ -51,17 +51,12 @@ function PubCard({ pub, index, total }: { pub: Publication; index: number; total
             <span className="font-medium text-slate-900 dark:text-white leading-snug">{pub.title}</span>
           )}
 
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            {pub.authors}
-          </p>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{pub.authors}</p>
           <p className="mt-0.5 text-sm text-slate-500 dark:text-slate-400">
             <em>{pub.venue}</em>{pub.status === "journal" ? `, ${pub.year}` : ""}
           </p>
-
           {pub.doi && (
-            <p className="mt-0.5 text-xs text-slate-400 dark:text-slate-500 font-mono">
-              doi:{pub.doi}
-            </p>
+            <p className="mt-0.5 text-xs text-slate-400 dark:text-slate-500 font-mono">doi:{pub.doi}</p>
           )}
 
           {pub.abstract && (
@@ -89,50 +84,15 @@ function PubCard({ pub, index, total }: { pub: Publication; index: number; total
 }
 
 export default function Publications() {
-  const journals = publications.filter((p) => p.status === "journal");
-  const preprints = publications.filter((p) => p.status === "preprint");
-
   return (
     <div className="py-12 px-6">
       <div className="max-w-5xl mx-auto">
-        <div className="flex items-center justify-between mb-8">
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Publications</h1>
-          <a
-            href="https://scholar.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white flex items-center gap-1 transition-colors"
-          >
-            Google Scholar
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </a>
-        </div>
-
-        <div className="space-y-10">
-          <div>
-            <h2 className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-4">
-              Journal Articles
-            </h2>
-            <ul className="space-y-3">
-              {journals.map((p, i) => (
-                <PubCard key={i} pub={p} index={i} total={journals.length} />
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h2 className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-4">
-              Preprints
-            </h2>
-            <ul className="space-y-3">
-              {preprints.map((p, i) => (
-                <PubCard key={i} pub={p} index={i} total={preprints.length} />
-              ))}
-            </ul>
-          </div>
-        </div>
+        <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">Publications</h1>
+        <ul className="space-y-3">
+          {publications.map((p, i) => (
+            <PubCard key={i} pub={p} index={i} total={publications.length} />
+          ))}
+        </ul>
       </div>
     </div>
   );

@@ -4,7 +4,6 @@ import { education } from "@/data/education";
 const stats = [
   { label: "Papers", value: "4" },
   { label: "Conference talks", value: "4" },
-  { label: "Certificate", value: "CFA" },
   { label: "Industry experience", value: "10+ yrs" },
 ];
 
@@ -16,10 +15,6 @@ const skillGroups = [
   {
     label: "Libraries & tools",
     items: ["NumPy", "SciPy", "pandas", "scikit-learn", "CVXPY", "Plotly", "Databricks"],
-  },
-  {
-    label: "Certifications",
-    items: ["CFA Charterholder"],
   },
 ];
 
@@ -67,7 +62,7 @@ export default function Hero() {
         </div>
 
         {/* — Quick stats — */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-3 gap-4 max-w-lg">
           {stats.map((s) => (
             <div
               key={s.label}

@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section id="about" className="pt-28 pb-20 px-6">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start gap-10">
-        {/* Photo placeholder */}
-        <div className="shrink-0 w-36 h-36 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-slate-400 dark:text-slate-500 text-sm font-medium">
-          Photo
+        <div className="shrink-0 w-36 h-36 rounded-full overflow-hidden">
+          <Image
+            src="/linkedin_image_yaowen.png"
+            alt="Yaowen Lu"
+            width={144}
+            height={144}
+            className="object-cover w-full h-full"
+            priority
+          />
         </div>
 
         <div>

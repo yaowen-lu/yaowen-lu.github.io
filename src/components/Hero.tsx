@@ -1,0 +1,51 @@
+export default function Hero() {
+  return (
+    <section id="about" className="pt-28 pb-20 px-6">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start gap-10">
+        {/* Photo placeholder */}
+        <div className="shrink-0 w-36 h-36 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-slate-400 dark:text-slate-500 text-sm font-medium">
+          Photo
+        </div>
+
+        <div>
+          <h1 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
+            Yaowen Lu, PhD, CFA
+          </h1>
+          <p className="mt-1 text-slate-500 dark:text-slate-400">
+            Adjunct Lecturer · The University of Queensland &nbsp;|&nbsp; Quantitative Developer · Jacobi Strategies
+          </p>
+
+          <p className="mt-5 text-slate-700 dark:text-slate-300 leading-relaxed max-w-2xl">
+            Yaowen Lu is an Adjunct Lecturer at the University of Queensland&rsquo;s School of Mathematics and
+            Physics and a Quantitative Developer at Jacobi Strategies, where he builds economic scenario
+            generation models and multi-asset portfolio optimisation tools. He holds a PhD in Computational
+            Finance from UQ, with research on numerical methods for guaranteed minimum withdrawal benefits
+            published in <em>Numerical Methods for Partial Differential Equations</em> and the{" "}
+            <em>SIAM Journal on Scientific Computing</em>. With over a decade of industry experience across
+            investment engineering and capital management, he bridges rigorous mathematical research with
+            practical financial applications.
+          </p>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="/Yaowen_s_CV_Version_2_3.pdf"
+              download
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-sm font-medium hover:opacity-90 transition-opacity"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
+              </svg>
+              Download CV
+            </a>
+            <a
+              href="mailto:yaowenlu@outlook.com"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 text-sm font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+            >
+              yaowenlu@outlook.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

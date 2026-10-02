@@ -1,12 +1,6 @@
 import Image from "next/image";
 import { education } from "@/data/education";
 
-const stats = [
-  { label: "Papers", value: "4" },
-  { label: "Conference talks", value: "4" },
-  { label: "Industry experience", value: "10+ yrs" },
-];
-
 const skillGroups = [
   {
     label: "Languages",
@@ -59,19 +53,6 @@ export default function Hero() {
               practical financial applications.
             </p>
           </div>
-        </div>
-
-        {/* — Quick stats — */}
-        <div className="grid grid-cols-3 gap-4 max-w-lg">
-          {stats.map((s) => (
-            <div
-              key={s.label}
-              className="rounded-lg border border-slate-200 dark:border-slate-700 p-4 text-center"
-            >
-              <p className="text-2xl font-bold text-slate-900 dark:text-white">{s.value}</p>
-              <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">{s.label}</p>
-            </div>
-          ))}
         </div>
 
         {/* — Education — */}

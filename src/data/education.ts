@@ -27,7 +27,6 @@ export const education: EducationItem[] = [
     notes: [
       "Dissertation: Numerical Methods for Guaranteed Minimum Withdrawal Benefits",
       "Australian Government Research Training Program Scholarship",
-      "First Place, 1st-time presenter, SMP Poster Day 2019",
     ],
   },
   {
@@ -36,10 +35,6 @@ export const education: EducationItem[] = [
     institution: "Beihang University, School of Mathematics and Systems Science",
     location: "Beijing, China",
     period: "Sep 2008 – Jan 2011",
-    notes: [
-      "First Class Scholarship (7 of 42 applicants), GPA: 3.4/4.0",
-      "Second Prize, 2010 National Postgraduate Mathematical Contest in Modelling",
-    ],
   },
   {
     degree: "Bachelor of Science",
@@ -47,9 +42,5 @@ export const education: EducationItem[] = [
     institution: "Beihang University, School of Mathematics and Systems Science",
     location: "Beijing, China",
     period: "Sep 2004 – Jul 2008",
-    notes: [
-      "Excellent Graduate Award (5 of 120 applicants), GPA: 3.5/4.0",
-      "National Endeavour Scholarship (4 of 120 applicants)",
-    ],
   },
 ];

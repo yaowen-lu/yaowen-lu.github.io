@@ -97,8 +97,22 @@ export default function Hero() {
                   <p className="text-sm text-slate-500 dark:text-slate-400">
                     {e.institution} &middot; {e.location}
                   </p>
+                  {e.thesis && (
+                    <p className="mt-1.5 text-xs text-slate-500 dark:text-slate-400 flex gap-2">
+                      <span className="mt-1.5 shrink-0 w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-600" />
+                      Thesis:&nbsp;
+                      <a
+                        href={e.thesis.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline underline-offset-2"
+                      >
+                        {e.thesis.title}
+                      </a>
+                    </p>
+                  )}
                   {e.notes && (
-                    <ul className="mt-1.5 space-y-0.5">
+                    <ul className="mt-1 space-y-0.5">
                       {e.notes.map((n, i) => (
                         <li key={i} className="text-xs text-slate-500 dark:text-slate-400 flex gap-2">
                           <span className="mt-1.5 shrink-0 w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-600" />

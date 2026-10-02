@@ -5,6 +5,7 @@ export type EducationItem = {
   location: string;
   period: string;
   notes?: string[];
+  thesis?: { title: string; url: string };
 };
 
 export const education: EducationItem[] = [
@@ -24,10 +25,11 @@ export const education: EducationItem[] = [
     institution: "The University of Queensland, School of Mathematics and Physics",
     location: "Brisbane, Australia",
     period: "Aug 2017 – Nov 2022",
-    notes: [
-      "Dissertation: Numerical Methods for Guaranteed Minimum Withdrawal Benefits",
-      "Australian Government Research Training Program Scholarship",
-    ],
+    thesis: {
+      title: "Numerical Methods for Guaranteed Minimum Withdrawal Benefits",
+      url: "https://espace.library.uq.edu.au/view/UQ:b549c4b/s4476234_phd_thesis.pdf",
+    },
+    notes: ["Australian Government Research Training Program Scholarship"],
   },
   {
     degree: "Master of Science",

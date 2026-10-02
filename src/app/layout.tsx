@@ -17,10 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 antialiased`}>
+    <html lang="en">
+      <body className={`${inter.className} bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 antialiased min-h-screen`}>
         <Nav />
         {children}
+        <footer className="py-8 px-6 border-t border-slate-100 dark:border-slate-800 text-center text-xs text-slate-400 dark:text-slate-600">
+          © {new Date().getFullYear()} Yaowen Lu
+        </footer>
       </body>
     </html>
   );

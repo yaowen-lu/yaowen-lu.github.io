@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section id="about" className="pt-28 pb-20 px-6">
+    <section className="py-16 px-6">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start gap-10">
         <div className="shrink-0 w-36 h-36 rounded-full overflow-hidden">
           <Image
@@ -35,16 +35,6 @@ export default function Hero() {
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
-            <a
-              href="/Yaowen_s_CV_Version_2_3.pdf"
-              download
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-sm font-medium hover:opacity-90 transition-opacity"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
-              </svg>
-              Download CV
-            </a>
             <a
               href="mailto:yaowenlu@outlook.com"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 text-sm font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"

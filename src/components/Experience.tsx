@@ -2,13 +2,13 @@ import { experience } from "@/data/experience";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-16 px-6 bg-slate-50 dark:bg-slate-800/40">
+    <div className="py-12 px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">Experience</h2>
+        <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">Experience</h1>
         <div className="space-y-8">
           {experience.map((item) => (
             <div key={`${item.role}-${item.org}`} className="flex flex-col sm:flex-row sm:gap-6">
-              <div className="sm:w-40 shrink-0 text-sm text-slate-400 dark:text-slate-500 pt-0.5">
+              <div className="sm:w-44 shrink-0 text-sm text-slate-400 dark:text-slate-500 pt-0.5">
                 {item.period}
               </div>
               <div className="flex-1">
@@ -29,6 +29,6 @@ export default function Experience() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

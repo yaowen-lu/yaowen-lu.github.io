@@ -18,9 +18,9 @@ const links = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-16 px-6">
+    <div className="py-12 px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Contact</h2>
+        <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Contact</h1>
         <p className="text-slate-500 dark:text-slate-400 mb-8 text-sm">
           Feel free to reach out about research, teaching, or industry collaborations.
         </p>
@@ -40,6 +40,6 @@ export default function Contact() {
           ))}
         </ul>
       </div>
-    </section>
+    </div>
   );
 }

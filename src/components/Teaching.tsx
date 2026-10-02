@@ -2,13 +2,13 @@ import { teaching } from "@/data/teaching";
 
 export default function Teaching() {
   return (
-    <section id="teaching" className="py-16 px-6">
+    <div className="py-12 px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">Teaching</h2>
+        <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">Teaching</h1>
         <div className="space-y-8">
           {teaching.map((item) => (
             <div key={item.role} className="flex flex-col sm:flex-row sm:gap-6">
-              <div className="sm:w-40 shrink-0 text-sm text-slate-400 dark:text-slate-500 pt-0.5">
+              <div className="sm:w-44 shrink-0 text-sm text-slate-400 dark:text-slate-500 pt-0.5">
                 {item.period}
               </div>
               <div className="flex-1">
@@ -27,6 +27,6 @@ export default function Teaching() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

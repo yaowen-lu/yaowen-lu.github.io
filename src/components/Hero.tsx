@@ -2,9 +2,9 @@ import Image from "next/image";
 import { education } from "@/data/education";
 
 const stats = [
-  { label: "Journal articles", value: "2" },
-  { label: "Preprints", value: "2" },
+  { label: "Papers", value: "4" },
   { label: "Conference talks", value: "4" },
+  { label: "Certificate", value: "CFA" },
   { label: "Industry experience", value: "10+ yrs" },
 ];
 
@@ -19,7 +19,7 @@ const skillGroups = [
   },
   {
     label: "Certifications",
-    items: ["CFA Charterholder", "TensorFlow Developer"],
+    items: ["CFA Charterholder"],
   },
 ];
 

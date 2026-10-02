@@ -37,6 +37,7 @@ export const education: EducationItem[] = [
     institution: "Beihang University, School of Mathematics and Systems Science",
     location: "Beijing, China",
     period: "Sep 2008 – Jan 2011",
+    notes: ["Second Prize, National Postgraduate Mathematical Contest in Modelling (2010)"],
   },
   {
     degree: "Bachelor of Science",
@@ -44,5 +45,6 @@ export const education: EducationItem[] = [
     institution: "Beihang University, School of Mathematics and Systems Science",
     location: "Beijing, China",
     period: "Sep 2004 – Jul 2008",
+    notes: ["Excellent Graduate Award"],
   },
 ];

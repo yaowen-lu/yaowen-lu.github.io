@@ -4,11 +4,11 @@ const links = [
     value: "yaowenlu@outlook.com",
     href: "mailto:yaowenlu@outlook.com",
   },
-  {
-    label: "GitHub",
-    value: "github.com/yaowenlu",
-    href: "https://github.com/yaowenlu",
-  },
+  // {
+  //   label: "GitHub",
+  //   value: "github.com/yaowenlu",
+  //   href: "https://github.com/yaowenlu",
+  // },
   {
     label: "LinkedIn",
     value: "linkedin.com/in/yaowenlu",

@@ -43,9 +43,9 @@ export default function Hero() {
               Quantitative Developer · Jacobi Strategies &nbsp;|&nbsp; Adjunct Lecturer · The University of Queensland
             </p>
             <p className="mt-5 text-slate-700 dark:text-slate-300 leading-relaxed max-w-2xl">
-              Yaowen Lu is an Adjunct Lecturer at the University of Queensland&rsquo;s School of Mathematics and
-              Physics and a Quantitative Developer at Jacobi Strategies, where he builds economic scenario
-              generation models and multi-asset portfolio optimisation tools. He holds a PhD in Computational
+              Yaowen Lu is a Quantitative Developer at Jacobi Strategies, where he builds economic scenario
+              generation models and multi-asset portfolio optimisation tools, and an Adjunct Lecturer at the
+              University of Queensland&rsquo;s School of Mathematics and Physics. He holds a PhD in Computational
               Finance from UQ, with research on numerical methods for guaranteed minimum withdrawal benefits
               published in <em>Numerical Methods for Partial Differential Equations</em> and the{" "}
               <em>SIAM Journal on Scientific Computing</em>. With over a decade of industry experience across

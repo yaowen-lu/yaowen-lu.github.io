@@ -20,6 +20,7 @@ export const publications: Publication[] = [
     status: "preprint",
     abstract:
       "We formulate the guaranteed minimum withdrawal benefit (GMWB) pricing problem as a continuous impulse control problem and develop an ε-monotone Fourier method that provably converges to the viscosity solution. The method handles jump-diffusion dynamics and avoids the grid-locking issues common to finite-difference schemes.",
+    url: "/epsilon_GMWB.pdf",
   },
   {
     title:
@@ -43,6 +44,7 @@ export const publications: Publication[] = [
     status: "preprint",
     abstract:
       "We extend the GMWB pricing framework to guaranteed lifelong withdrawal benefits (GLWBs) with stochastic volatility. A novel numerical integration method is constructed that achieves pointwise convergence under the Heston stochastic volatility model, incorporating the mortality risk inherent in lifetime income products.",
+    url: "/epsilon_GLWB_Heston.pdf",
   },
   {
     title:
@@ -54,6 +56,6 @@ export const publications: Publication[] = [
     status: "journal",
     abstract:
       "We present a hybrid numerical framework that combines Runge–Kutta discontinuous Galerkin (RKDG) and weighted essentially non-oscillatory (WENO) methods across multiple spatial domains. The coupling strategy preserves high-order accuracy and the essentially non-oscillatory property near discontinuities, with applications to practical problems with irregular boundary conditions.",
-    url: "https://doi.org/10.1137/110850637",
+    url: "https://epubs.siam.org/doi/abs/10.1137/110855156?journalCode=sjoce3",
   },
 ];

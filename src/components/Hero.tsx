@@ -40,7 +40,7 @@ export default function Hero() {
               Yaowen Lu, PhD, CFA
             </h1>
             <p className="mt-1 text-slate-500 dark:text-slate-400">
-              Adjunct Lecturer · The University of Queensland &nbsp;|&nbsp; Quantitative Developer · Jacobi Strategies
+              Quantitative Developer · Jacobi Strategies &nbsp;|&nbsp; Adjunct Lecturer · The University of Queensland
             </p>
             <p className="mt-5 text-slate-700 dark:text-slate-300 leading-relaxed max-w-2xl">
               Yaowen Lu is an Adjunct Lecturer at the University of Queensland&rsquo;s School of Mathematics and

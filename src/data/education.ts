@@ -16,7 +16,7 @@ export const education: EducationItem[] = [
     location: "Online",
     period: "Jun 2025 – Present",
     notes: [
-      "Relevant courses: Financial Data, Financial Markets, Financial Econometrics, Machine Learning in Finance",
+      "Relevant courses: Financial Data, Financial Econometrics, Machine Learning in Finance, Deep Learning in Finance",
     ],
   },
   {
@@ -45,6 +45,6 @@ export const education: EducationItem[] = [
     institution: "Beihang University, School of Mathematics and Systems Science",
     location: "Beijing, China",
     period: "Sep 2004 – Jul 2008",
-    notes: ["Excellent Graduate Award"],
+    notes: ["Excellent Graduate Award (2008)"],
   },
 ];

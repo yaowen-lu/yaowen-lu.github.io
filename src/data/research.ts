@@ -16,6 +16,14 @@ export const researchProjects: ResearchProject[] = [
     methods: ["Regime-switching models", "Stochastic processes", "Monte Carlo simulation", "Portfolio optimisation"],
   },
   {
+    title: "Guaranteed Minimum Withdrawal Benefits (GMWB)",
+    period: "2017 – 2022",
+    status: "past",
+    description:
+      "Doctoral research on the pricing and risk management of variable annuity contracts with guaranteed withdrawal features. Developed provably convergent numerical schemes — including ε-monotone Fourier methods and semi-Lagrangian discretisations — for the associated Hamilton–Jacobi–Bellman equations under jump-diffusion, stochastic interest rates, and stochastic volatility.",
+    methods: ["ε-monotone Fourier methods", "Semi-Lagrangian schemes", "Impulse control", "HJB equations", "Jump-diffusion"],
+  },
+  {
     title: "Portfolio Optimisation & Asset Allocation",
     period: "2022 – Present",
     status: "current",
@@ -30,14 +38,6 @@ export const researchProjects: ResearchProject[] = [
     description:
       "Application of deep neural networks to high-dimensional stochastic optimal control problems in finance. Current work focuses on deep Galerkin methods and physics-informed neural networks as scalable alternatives to traditional grid-based solvers for pricing complex derivatives.",
     methods: ["Deep neural networks", "Physics-informed ML", "Stochastic optimal control", "High-dimensional PDEs"],
-  },
-  {
-    title: "Guaranteed Minimum Withdrawal Benefits (GMWB)",
-    period: "2017 – 2022",
-    status: "past",
-    description:
-      "Doctoral research on the pricing and risk management of variable annuity contracts with guaranteed withdrawal features. Developed provably convergent numerical schemes — including ε-monotone Fourier methods and semi-Lagrangian discretisations — for the associated Hamilton–Jacobi–Bellman equations under jump-diffusion, stochastic interest rates, and stochastic volatility.",
-    methods: ["ε-monotone Fourier methods", "Semi-Lagrangian schemes", "Impulse control", "HJB equations", "Jump-diffusion"],
   },
   {
     title: "Multi-Domain Numerical Methods for Conservation Laws",

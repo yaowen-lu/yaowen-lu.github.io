@@ -6,7 +6,6 @@ import { useState } from "react";
 
 const links = [
   { label: "About", href: "/" },
-  { label: "Publications", href: "/publications" },
   { label: "Research", href: "/research" },
   { label: "Experience", href: "/experience" },
 ];
@@ -18,10 +17,6 @@ export default function Nav() {
   return (
     <header className="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-b border-slate-100 dark:border-slate-800">
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-semibold text-slate-800 dark:text-slate-100 tracking-tight">
-          Yaowen Lu
-        </Link>
-
         {/* Desktop links */}
         <ul className="hidden md:flex gap-1 text-sm">
           {links.map((l) => {

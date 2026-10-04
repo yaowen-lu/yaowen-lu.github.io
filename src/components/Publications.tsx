@@ -15,7 +15,7 @@ function Badge({ status }: { status: Publication["status"] }) {
   );
 }
 
-function PubCard({ pub, index, total }: { pub: Publication; index: number; total: number }) {
+function PubCard({ pub, index }: { pub: Publication; index: number }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -26,7 +26,7 @@ function PubCard({ pub, index, total }: { pub: Publication; index: number; total
     }`}>
       <div className="flex gap-3 items-start">
         <span className="mt-0.5 text-slate-300 dark:text-slate-600 font-mono text-sm shrink-0 w-6 text-right">
-          [{total - index}]
+          [{index + 1}]
         </span>
         <div className="flex-1 min-w-0">
           <div className="flex flex-wrap items-center gap-2 mb-1">
@@ -90,7 +90,7 @@ export default function Publications() {
         <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">Publications</h1>
         <ul className="space-y-3">
           {publications.map((p, i) => (
-            <PubCard key={i} pub={p} index={i} total={publications.length} />
+            <PubCard key={i} pub={p} index={i} />
           ))}
         </ul>
       </div>

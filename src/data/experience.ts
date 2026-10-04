@@ -13,7 +13,7 @@ export const experience: ExperienceItem[] = [
     location: "Brisbane, Australia",
     period: "Dec 2022 – Present",
     bullets: [
-      "Develop economic scenario generation models using stochastic and regime-switching frameworks to simulate asset returns, yields, and macroeconomic variables.",
+      "Develop economic simulation models using stochastic and regime-switching frameworks to simulate asset returns, yields, and macroeconomic variables.",
       "Design and maintain a multi-asset portfolio platform focused on scenario simulation and portfolio optimisation.",
       "Collaborate with investment specialists to quantify real-world portfolio design problems and implement practical solutions.",
     ],

@@ -13,6 +13,18 @@ export type Publication = {
 export const publications: Publication[] = [
   {
     title:
+      "Multi-Domain Hybrid RKDG and WENO methods for Hyperbolic Conservation Laws",
+    authors: "Jian Cheng, Yaowen Lu, Tiegang Liu",
+    venue:
+      "SIAM Journal on Scientific Computing, Vol. 35, No. 2, pp. A1049–A1072",
+    year: 2013,
+    status: "journal",
+    abstract:
+      "We present a hybrid numerical framework that combines Runge–Kutta discontinuous Galerkin (RKDG) and weighted essentially non-oscillatory (WENO) methods across multiple spatial domains. The coupling strategy preserves high-order accuracy and the essentially non-oscillatory property near discontinuities, with applications to practical problems with irregular boundary conditions.",
+    url: "https://epubs.siam.org/doi/abs/10.1137/110855156?journalCode=sjoce3",
+  },
+  {
+    title:
       "An ε-monotone Fourier method for GMWB as a continuous impulse control problem",
     authors: "Yaowen Lu, Duy-Minh Dang, Peter Forsyth, George Labahn",
     venue: "Preprint",
@@ -45,17 +57,5 @@ export const publications: Publication[] = [
     abstract:
       "We extend the GMWB pricing framework to guaranteed lifelong withdrawal benefits (GLWBs) with stochastic volatility. A novel numerical integration method is constructed that achieves pointwise convergence under the Heston stochastic volatility model, incorporating the mortality risk inherent in lifetime income products.",
     url: "/epsilon_GLWB_Heston.pdf",
-  },
-  {
-    title:
-      "Multi-Domain Hybrid RKDG and WENO methods for Hyperbolic Conservation Laws",
-    authors: "Jian Cheng, Yaowen Lu, Tiegang Liu",
-    venue:
-      "SIAM Journal on Scientific Computing, Vol. 35, No. 2, pp. A1049–A1072",
-    year: 2013,
-    status: "journal",
-    abstract:
-      "We present a hybrid numerical framework that combines Runge–Kutta discontinuous Galerkin (RKDG) and weighted essentially non-oscillatory (WENO) methods across multiple spatial domains. The coupling strategy preserves high-order accuracy and the essentially non-oscillatory property near discontinuities, with applications to practical problems with irregular boundary conditions.",
-    url: "https://epubs.siam.org/doi/abs/10.1137/110855156?journalCode=sjoce3",
   },
 ];

@@ -15,7 +15,7 @@ const skillGroups = [
 const contact = [
   { label: "Email", value: "yaowenlu@outlook.com", href: "mailto:yaowenlu@outlook.com" },
   // { label: "GitHub", value: "github.com/yaowenlu", href: "https://github.com/yaowenlu" },
-  { label: "LinkedIn", value: "linkedin.com/in/yaowenlu", href: "https://linkedin.com/in/yaowenlu" },
+  { label: "LinkedIn", value: "linkedin.com/in/yaowen-lu-phd-cfa-57681b140", href: "https://linkedin.com/in/yaowen-lu-phd-cfa-57681b140" },
 ];
 
 export default function Hero() {

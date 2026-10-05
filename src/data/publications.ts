@@ -41,7 +41,6 @@ export const publications: Publication[] = [
     venue: "Numerical Methods for Partial Differential Equations",
     year: 2023,
     status: "journal",
-    featured: true,
     abstract:
       "This paper develops a provably convergent numerical method for pricing variable annuity contracts with guaranteed minimum withdrawal benefits (GMWBs) under a jump-diffusion model combined with a stochastic interest rate. We combine a semi-Lagrangian time-stepping scheme with an ε-monotone Fourier discretisation, establishing pointwise convergence to the viscosity solution of the associated Hamilton–Jacobi–Bellman equation.",
     doi: "10.1002/num.23075",

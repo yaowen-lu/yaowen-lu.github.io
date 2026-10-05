@@ -34,17 +34,15 @@ export const education: EducationItem[] = [
   {
     degree: "Master of Science",
     field: "Mathematics",
-    institution: "Beihang University, School of Mathematics and Systems Science",
+    institution: "Beihang University, School of Mathematical Sciences",
     location: "Beijing, China",
     period: "Sep 2008 – Jan 2011",
-    notes: ["Second Prize, National Postgraduate Mathematical Contest in Modelling (2010)"],
   },
   {
     degree: "Bachelor of Science",
     field: "Information and Scientific Computing",
-    institution: "Beihang University, School of Mathematics and Systems Science",
+    institution: "Beihang University, School of Mathematical Sciences",
     location: "Beijing, China",
     period: "Sep 2004 – Jul 2008",
-    notes: ["Excellent Graduate Award (2008)"],
   },
 ];

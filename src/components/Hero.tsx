@@ -4,7 +4,7 @@ import { education } from "@/data/education";
 const skillGroups = [
   {
     label: "Languages",
-    items: ["Python", "C++", "MATLAB", "SQL / NoSQL"],
+    items: ["Python", "C++", "MATLAB", "SQL"],
   },
   {
     label: "Libraries & tools",
@@ -60,7 +60,7 @@ export default function Hero() {
             Education
           </h2>
           <div className="space-y-6">
-            {education.map((e) => (
+            {education.filter((e) => e.institution.includes("Beihang") || e.degree === "Doctor of Philosophy").map((e) => (
               <div key={`${e.degree}-${e.institution}`} className="flex flex-col sm:flex-row sm:gap-6">
                 <div className="sm:w-44 shrink-0 text-sm text-slate-400 dark:text-slate-500 pt-0.5">
                   {e.period}

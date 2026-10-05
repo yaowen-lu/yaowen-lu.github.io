@@ -49,14 +49,4 @@ export const experience: ExperienceItem[] = [
       "Performed data analysis to optimise product innovation and marketing strategy.",
     ],
   },
-  {
-    role: "Analytic Consultant (Intern)",
-    org: "Fair Isaac (FICO) Information Technology Co. Ltd",
-    location: "Beijing, China",
-    period: "Oct 2010 – Mar 2011",
-    bullets: [
-      "Wrangled large-scale retail banking data for ICBC.",
-      "Built scorecard models for retail banking services.",
-    ],
-  },
 ];
